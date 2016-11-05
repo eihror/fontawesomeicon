@@ -29,3 +29,13 @@ And add on your xml layout
 And Voilà
 
 <img src="http://igormelo.com/projetos/library_fontawesomeicon/font_awesome_icons.png" />
+
+How to use programatically
+
+```
+FontAwesomeIcon fontAwesomeIcon = (FontAwesomeIcon) findViewById(R.id.fontawesome);
+fontAwesomeIcon.setText(R.string.fa_file_text);
+fontAwesomeIcon.setTextSize(24);
+fontAwesomeIcon.setTextColor(R.color.red);
+fontAwesomeIcon.setBackgroundColor(R.color.black);
+```
