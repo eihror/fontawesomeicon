@@ -27,3 +27,5 @@ And add on your xml layout
 ```
 
 And Voilà
+
+<img src="http://igormelo.com/projetos/library_fontawesomeicon/font_awesome_icons.png" />
