@@ -1,14 +1,15 @@
 # Font Awesome Icon Library Android
 
-Make your life easie using [Font Awesome by Dave Gandy](http://fontawesome.io/) instead of create various png´s images. The vector images will remain crisp and clear on all device sizes. 
+Make your life easier by using [Font Awesome by Dave Gandy](http://fontawesome.io/) instead of creating various png´s images.
+The vector images will remain crisp and clear on all device sizes.
 
-**Actual version on FontAwesome 4.7**
+**Latest version on FontAwesome 4.7**
 
-If some icon that doesn´t found, you´ll need to download the font on FontAwesome site and add a new icons on .xml file. The icons values can be found in [CheatSheet](http://fontawesome.io/cheatsheet/).
+If by some reason an icon isn't found, you´ll have to download the font on FontAwesome website and then add the new icons on .xml file. The icons values can be found in [CheatSheet](http://fontawesome.io/cheatsheet/).
 
 ## How to use
 
-Clone this project inside the project that you wanna to use. Inside your **build.gradle** file project add:
+Clone this project inside the project that you want to use. Inside your **build.gradle** file project add:
 
 ```
 compile project(":folder_cloned")
@@ -30,7 +31,7 @@ And Voilà
 
 <img src="http://igormelo.com/projetos/library_fontawesomeicon/font_awesome_icons.png" />
 
-How to use programatically
+How to use programmatically
 
 ```
 FontAwesomeIcon fontAwesomeIcon = (FontAwesomeIcon) findViewById(R.id.fontawesome);
